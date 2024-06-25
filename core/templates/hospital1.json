@@ -1,0 +1,106 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 33.9345569,
+        "lng": -117.8938505
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.93551652989272,
+          "lng": -117.8926187201073
+        },
+        "southwest": {
+          "lat": 33.93281687010727,
+          "lng": -117.8953183798927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+    "icon_background_color": "#F88181",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+    "name": "Kindred Hospital Brea",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 853,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108662393528667542895\">Kindred Hospital Brea</a>"
+        ],
+        "photo_reference": "ATplDJYf0JiwxjJth_shvvDBZkwqQAT2H0BgwDRyUotxbQCxffq_57KSz4ivKltgCrgRg60l9Iv9SQg4xGBQNI9LCY9UfQlYSFHfAt-qMUuCADN4tdvYNL6nTgpDrP9H6PhzJz1ZbNw6kCwVHwx5qjc97fdM7gB3T0mnHHOFhoXoK7azIVs6",
+        "width": 1279
+      }
+    ],
+    "place_id": "ChIJ6SLBkjvV3IARqx8yHo6Ap1o",
+    "plus_code": {
+      "compound_code": "W4M4+RF Brea, California",
+      "global_code": "8554W4M4+RF"
+    },
+    "rating": 4.3,
+    "reference": "ChIJ6SLBkjvV3IARqx8yHo6Ap1o",
+    "scope": "GOOGLE",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 238,
+    "vicinity": "875 N Brea Blvd, Brea"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 33.815958,
+        "lng": -118.007202
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 33.81737542989273,
+          "lng": -118.0058577701073
+        },
+        "southwest": {
+          "lat": 33.81467577010728,
+          "lng": -118.0085574298927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+    "icon_background_color": "#F88181",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+    "name": "Anaheim Community Hospital",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 753,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116958127174089729163\">A Google User</a>"
+        ],
+        "photo_reference": "ATplDJZ79bMUoh8PRwGjkM02v5hW5_7VyC9r2uEhtgg5esUZTbSX1-_IVbS-1XblhCddixHGjxvYDTvw3r1XLDIMnXlF--PLphxASTSWzmaaBdeDz3I4mVS9BQtX4YxOV1RbjzazW0izrkENBB_MQycb_qJZ5LWMBTWx_r9PYKbSRuN04Hpn",
+        "width": 1127
+      }
+    ],
+    "place_id": "ChIJF8TdFucp3YARrzJpVSZvtsY",
+    "plus_code": {
+      "compound_code": "X4HX+Q4 Anaheim, California",
+      "global_code": "8563X4HX+Q4"
+    },
+    "rating": 3.4,
+    "reference": "ChIJF8TdFucp3YARrzJpVSZvtsY",
+    "scope": "GOOGLE",
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 139,
+    "vicinity": "1111 W La Palma Ave, Anaheim"
+  }
+]

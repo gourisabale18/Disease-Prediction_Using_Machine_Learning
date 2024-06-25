@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearest Hospitals Map</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEy&callback=initMap" async defer></script>
+
+    <script>
+        function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: { lat: 40.7128, lng: -74.0060 } // Default center (New York)
+    });
+
+    // Load JSON data from hospital1.json
+    $.getJSON('hospital1.json', function (data) {
+        // Iterate over each hospital data and place marker on the map
+        data.forEach(function (hospitalData) {
+            // Create an AdvancedMarkerElement
+            var marker = new google.maps.marker.AdvancedMarkerElement({
+                position: { lat: hospitalData.geometry.location.lat, lng: hospitalData.geometry.location.lng },
+                map: map,
+                title: hospitalData.name
+            });
+
+            // Add info window to display hospital name when marker is clicked
+            var infoWindow = new google.maps.InfoWindow({
+                content: hospitalData.name
+            });
+
+            marker.addListener('click', function () {
+                infoWindow.open(map, marker);
+            });
+        });
+    });
+}
+    </script>
+           
+</head>
+<body>
+    <h1>Nearest Hospitals for Zip Code</h1>
+    <div id="map"></div>
+</body>
+</html>

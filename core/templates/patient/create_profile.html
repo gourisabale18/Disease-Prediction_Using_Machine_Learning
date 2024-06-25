@@ -1,0 +1,104 @@
+
+{% extends 'patient/base.html' %}
+{% load static %}
+
+
+{% block body %}
+<div class="container-fluid" style="padding-top: 20px">
+<div class="row">
+    <div class="col-sm-4" style="padding: 20px"">
+              <div class="card mb-3">
+                <div class="card-header" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%); text-align: center;">
+                   <h4 style="color: white; font-weight: bold;" > Create Your Profile <h4>
+                </div>
+                <div class="card-body">
+            <form action="" method="POST">
+                {% csrf_token %}
+        <div class="form-group">
+                <div class="col">
+                        <span style="padding-left: 15px">Date of birth</span>
+
+                        <input 
+                        type="date" id="start"  value="dd-mm-yyyy"
+                        min="1950-01-01" max="2021-12-12"
+                        class="form-control" name="birth_date" placeholder="Birth Date" required="required"></div>                 
+        </div>
+
+        <div class="form-group">
+                <div class="col">
+  <select class="w3-select w3-border" name="gender">
+  <option value="{{ gender.0 }}"> Please Select Your Gender ................ </option>
+  <option value="{{ gender.0 }}"> Male</option>
+  <option value="{{ gender.1 }}"> Female</option>
+
+</select>
+                </div>
+        </div>
+
+
+      <div class="form-group">
+                <div class="col"><input type="text" class="form-control" name="country" placeholder="Country" required="required"></div>
+        </div>
+        <div class="form-group">
+                <div class="col"><input type="text" class="form-control" name="region" placeholder="Region" required="required"></div>
+        </div>
+
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-lg btn-block" href="" style="background-color: #007bff;color: white;">Save</button>
+        </div>
+    </form>
+
+
+
+                {% if messages %}
+            <div class="messages">
+                {% for message in messages %}
+
+                    <div class="alert alert-success" style="color:red;"> {{ message }}</div>
+
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+
+        </div>
+</div>
+    </div> 
+    <div class="col-sm-4"></div>
+                    </div>  
+                  </div>
+
+</div>
+
+
+
+<div class="col-sm-3" style="color: red">
+</div>
+
+</div>
+</div>
+<style>
+
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    
+
+}
+
+
+.btn-lg{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+
+
+
+
+</style>
+
+{% endblock %}
