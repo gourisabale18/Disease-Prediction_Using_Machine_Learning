@@ -2,6 +2,13 @@
 
 This project aims to provide disease prediction results by making use of symptoms seen by patients to in order to improve existing healthcare system efficiency.
 
+## Tech Stack Used:
+1. Python Django Web Application framework
+2. MySQL/PostgreSQL
+3. Tomcat Web Server/ XAMPP
+4. Classification ML models
+5. HTML, CSS, Javascript, AJAX
+
 ## Installation Steps:
 
 1. Clone the project repository using this link:
