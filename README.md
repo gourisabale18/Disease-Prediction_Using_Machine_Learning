@@ -1,6 +1,6 @@
 ## Disease Prediction System using Machine Learning
 
-This project aims to provide disease prediction results by making use of symptoms seen by patients to in order to improve existing healthcare system efficiency.
+This project aims to provide disease prediction results using symptoms seen by patients to improve existing healthcare system efficiency.
 
 In this project, we have developed machine learning model for multi-disease prediction by peforming data preprocessing, splitting into train-test sets, and feature selection from the Columbia hospital dataset.
 
