@@ -3,11 +3,8 @@
 This project aims to provide disease prediction results using symptoms seen by patients to improve existing healthcare system efficiency.
 
 In this project, we have developed machine learning model for multi-disease prediction by peforming data preprocessing, splitting into train-test sets, and feature selection from the Columbia hospital dataset.
-
 We have trained ML model using Gaussian Naive Bayes classifier to predict 50 diseases from 132 symptoms, storing results in MySQL.
-
 We used Python Django framework for application development and MySQL to store data at backend. 
-
 Location finder service is also enabled for nearest hospital recommendations based on predictions. 
 
 ## Tech Stack Used:
