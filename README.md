@@ -8,7 +8,7 @@ We have trained ML model using Gaussian Naive Bayes classifier to predict 50 dis
 
 We used Python Django framework for application development and MySQL to store data at backend. 
 
-We have also integrated a location finder service for nearest hospital recommendations based on predictions. 
+Location finder service is also enabled for nearest hospital recommendations based on predictions. 
 
 ## Tech Stack Used:
 1. Python Django Web Application framework
